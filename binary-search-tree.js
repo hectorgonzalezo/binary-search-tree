@@ -364,7 +364,6 @@ class Tree {
   // are less than 1
   isBalanced(){
     const difference = this.#findHeight(this.#root.leftChild) - this.#findHeight(this.#root.rightChild);
-    console.log(difference)
     return Math.abs(difference) <= 1
   }
 
@@ -380,39 +379,4 @@ class Tree {
   }
 }
 
-const tree = new Tree([1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]);
-
-// tree.buildTree([1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]);
-
-// tree.insert(6);
-
-// tree.prettyPrint();
-// console.log("");
-
-// tree.delete(23);
-
-// tree.prettyPrint();
-
-// tree.levelOrder();
-
-// tree.preorder(console.log);
-// tree.inorder(console.log);
-// tree.postorder(console.log);
-
-// console.log(tree.height(67));
-
-// console.log(tree.depth(6))
-
-// console.log(tree.isBalanced())
-
-[0, 18, -10, -15, -16, -17, 564, 800, 1000].forEach(num => tree.insert(num))
-
-tree.prettyPrint();
-
-console.log(tree.isBalanced()) // Should say false
-
-tree.rebalance()
-
-tree.prettyPrint();
-
-console.log(tree.isBalanced())
+export default Tree

@@ -1,0 +1,20 @@
+{
+  "name": "binary-search-tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "binary-search-tree.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hectorgonzalezo/binary-search-tree.git"
+  },
+  "author": "Hector Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hectorgonzalezo/binary-search-tree/issues"
+  },
+  "homepage": "https://github.com/hectorgonzalezo/binary-search-tree#readme"
+}
