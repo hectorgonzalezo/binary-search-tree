@@ -1,4 +1,4 @@
-# Linked Lists
+# Binary Search Tree
 
 by Héctor Gonzalez Orozco
 
